@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
 from app.domain.player import Player
+from app.domain.wicket import Wicket
+
 
 @dataclass(slots=True)
 class Delivery:
@@ -19,4 +21,4 @@ class Delivery:
 
     total_runs: int
 
-    wicket: bool = False
+    wicket: Wicket | None = None

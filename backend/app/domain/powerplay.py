@@ -2,6 +2,7 @@ from dataclasses import dataclass
 
 
 @dataclass(slots=True, frozen=True)
-class Player:
-    registry_id: str
-    name: str
+class PowerPlay:
+    start: str
+    end: str
+    type: str
