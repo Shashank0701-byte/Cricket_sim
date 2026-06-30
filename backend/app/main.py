@@ -1,12 +1,12 @@
 from fastapi import FastAPI
 
 app = FastAPI(
-    title="CricketSim API",
-    version="0.1"
+    title="PowerPlay API",
+    version="0.1.0"
 )
 
 @app.get("/")
-def home():
+def root():
     return {
-        "status": "running"
+        "message": "PowerPlay Backend Running 🚀"
     }
