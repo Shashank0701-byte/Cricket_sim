@@ -30,4 +30,20 @@ Machine Learning powered IPL Simulation Engine.
 
 ## Status
 
-🚧 In Development
+## Progress
+
+### ✅ Phase 1
+- Project initialization
+- FastAPI backend
+- Supabase integration
+- Alembic
+
+### ✅ Phase 2
+- Cricket domain model
+- Parser architecture
+- Franchise normalization
+
+### 🚧 Next
+- Full Match Parser
+- Database ingestion
+- Statistics Engine
